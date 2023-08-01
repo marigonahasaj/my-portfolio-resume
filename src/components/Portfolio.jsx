@@ -61,7 +61,7 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen portfolio"
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white lg:h-screen portfolio md:pl-12 md:mt-28"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -71,17 +71,17 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work right here</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8 px-12 sm:px-0">
           {portfolios.map(({ id, src, link, repo }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg" style={{maxHeight:'235px'}}>
               <img
                 src={src}
                 alt="projects"
-                style={{height:'170px'}}
+                style={{maxHeight:'200px', minWidth:'100%', objectFit:'cover'}}
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-1 m-4 duration-200 hover:scale-105" onClick={ () => window.open(link, '_blank')}>
+                <button className="w-1/2 px-6 py-1 text-xl lg:m-4 duration-200 hover:scale-105" onClick={ () => window.open(link, '_blank')}>
                   Demo
                 </button>
               </div>
