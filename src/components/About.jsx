@@ -8,21 +8,35 @@ const About = () => {
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+          <p className="text-xl font-bold inline border-b-4 border-gray-500">
             About
           </p>
         </div>
 
         <p className="text-xl mt-5">
-        My name is Marigona.  <br /> <br /> I am a mid Senior front end developer, designing, building and maintaining responsive webs and apps for over three years. Coming to the coding universe from a 7 year retail industry management experience, I gained proficiency in developing Enterprise Resource Development software. Customizing elements of the ERP software system, adjusting the user interface and usability, and updating the best practices guidelines.
+        My name is Marigona.  <br /><br/>   I am a Senior Front-End Developer with over five years of experience designing, building, and optimizing responsive web applications. Having spent seven years in retail management, where ERP systems played a key role in sales and operations, I naturally transitioned into the development of such systems. My first-hand experience using ERP tools gave me a deep understanding of user needs, allowing me to build more intuitive, efficient, and user-friendly software by customizing interfaces, improving usability, and refining best practice guidelines.
         </p>
 
         <br />
 
         <p className="text-xl">
-        I like to code matters from scratch and love the idea of bringing thoughts to life.  <br /> <br />
-        I value minimalistic designs, thoughtful branding of the content, and customer relatable experience. Let’s discover together how we can make your project convert better!<br /> <br />
-        I enjoy creating or redesigning a distinct identity for a product or service, get more traffic from search engine and social platforms.<br /> <br /> Eager to tackle more complex problems and continue to maximise user efficiency and experience, I shared work with product teams from concept to launch.
+
+
+
+          I’ve had the opportunity to collaborate with teams across the Netherlands, Finland, Sweden, Albania and Kosovo, delivering high-quality solutions while adapting to different markets and user needs.
+
+          I specialize in building modern, scalable applications from scratch, creating seamless user experiences for AI-driven speech-to-text platforms, human transcription services, e-commerce solutions, and complex dashboards. My work also includes payment integrations and large-scale grid frameworks for structured content management.
+
+          I value clean, minimalistic design, thoughtful branding, and user-centric experiences that drive engagement and conversions. Whether refining an existing platform or crafting a distinct digital identity, I prioritize performance, accessibility, and long-term scalability.
+<br/><br/>
+          As a freelancer, I provide flexibility and availability for urgent issues, last-minute meetings, and time-sensitive requests, ensuring projects run smoothly and efficiently. Adapted to shifting priorities and fast-paced environments, helping clients stay productive and on track.
+
+          Passionate about solving complex challenges, I collaborate directly with client from concept to launch, ensuring efficiency, usability, and impact.
+<br/><br/>
+            Let's build solutions that drive results!
+
+
+
         </p>
       </div>
     </div>

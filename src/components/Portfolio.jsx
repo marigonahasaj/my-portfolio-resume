@@ -8,51 +8,62 @@ import startup from "../assets/portfolio/startup.png";
 import bmw from "../assets/portfolio/bmw.png";
 import landingpg from "../assets/portfolio/landingpg.png";
 import geocad from "../assets/portfolio/geocad.png";
+import scriptix from "../assets/portfolio/scriptix.png";
+import lenura from "../assets/portfolio/lenura.nl.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
+      src: scriptix,
+      link: 'https://scriptix.app/login',
+    },  {
+      id: 2,
       src: siu,
       link: 'https://siu.rks-gov.net/',
     },
     {
-      id: 2,
+      id: 3,
       src: mvc,
       link: 'https://store.myvirtualcart.com/',
     },
     {
-      id: 3,
+      id: 4,
       src: geotech,
       link: 'https://www.geotech.al/',
     },
     {
-      id: 4,
+      id: 5,
+      src: lenura,
+      link: 'https://www.lenura.nl/',
+    },
+    {
+      id: 6,
       src: geocad,
       link: 'https://geocad-ks.com/about',
     },
     {
-      id: 5,
+      id: 7,
       src: simonbrandt,
       link: 'https://simonbrandt.ch/',
     },
     {
-      id: 6,
+      id: 8,
       src: dashcodeadmin,
       link: 'https://dashcode.codeshaper.net/app/home',
     },
     {
-      id: 7,
+      id: 9,
       src: startup,
       link: 'https://startup-saas-modern.vercel.app/',
     },
     {
-      id: 8,
+      id: 10,
       src: bmw,
       link: 'https://www.bmw.de/de/home.html',
     },
     {
-      id: 9,
+      id: 11,
       src: landingpg,
       link: 'https://startup-online-course.vercel.app/',
     },

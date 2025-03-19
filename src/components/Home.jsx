@@ -17,36 +17,46 @@ const Home = () => {
             className="rounded-2xl mx-auto w-2/3 md:w-full"
           />
         </div>
-        <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white md:pt-20 sm:pt-16">
-            I'm a Front End Developer
+        <div className="flex flex-col justify-center h-full space-y-1 p-4">
+          <h2 className="text-5xl font-bold text-white md:pt-20 sm:pt-16">
+            Hi! I'm Marigona. <br/>
+            A Software Developer.
           </h2>
-          <p className="text-gray-500 py-4 max-w-md">
-            I have 3+ years of experience building websites and designing software.
-            I love to work on web application using technologies like
-            React, Tailwind, GraphQL, REST APIs, Git and SaaS.
-            <br/>Currently doing freelance gigs.
+          <p className="text-gray-400 text-xs font-semibold pt-4">[ With focus on Front-End Development ]</p>
+
+          <p className="text-gray-300 py-4 max-w-md">
+            I design and develop scalable, high-performance web applications,
+            from AI-driven speech-to-text platforms and human transcription services
+            to enterprise ERP systems and e-commerce solutions with seamless payment integration.
+            <br /><br />
+            With expertise in React, TypeScript, Tailwind, GraphQL, and Python,
+            I build modern interfaces, optimize APIs, and work with large-scale data grids,
+            sound wave processing frameworks, and secure payment gateways.
+            <br /><br />
+            Currently open to freelance gigs—let’s connect!
           </p>
+
 
           <div className="portfolio-btn">
             <Link
-              to="portfolio"
-              smooth
-              duration={500}
-              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-orange-400 to-yellow-500 cursor-pointer"
+                to="portfolio"
+                smooth
+                duration={500}
+                className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-orange-400 to-yellow-500 cursor-pointer"
             >
               Portfolio
               <span className="group-hover:rotate-90 duration-300">
-                <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
-              </span>
+        <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
+      </span>
             </Link>
           </div>
         </div>
+
         <div className="big-screen">
           <img
             src={HeroImage}
             alt="profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="rounded-2xl mx-auto w-2/3 p-4 md:w-full"
           />
         </div>
         
