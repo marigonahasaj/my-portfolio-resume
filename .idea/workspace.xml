@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a4315b9-38e9-425e-a20c-ea0615c7f640" name="Changes" comment="fixes">
-      <change afterPath="$PROJECT_DIR$/src/assets/portfolio/lenura.nl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/portfolio/scriptix.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Portfolio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Portfolio.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1690915820488</updated>
       <workItem from="1690915821673" duration="6482000" />
-      <workItem from="1742390761464" duration="4837000" />
+      <workItem from="1742390761464" duration="5783000" />
     </task>
     <task id="LOCAL-00001" summary="fixes">
       <created>1690917785805</created>
@@ -103,7 +101,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690922324445</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fixes">
+      <option name="closed" value="true" />
+      <created>1742395750390</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1742395750390</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
