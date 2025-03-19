@@ -10,6 +10,7 @@ import landingpg from "../assets/portfolio/landingpg.png";
 import geocad from "../assets/portfolio/geocad.png";
 import scriptix from "../assets/portfolio/scriptix.png";
 import lenura from "../assets/portfolio/lenura.nl.png";
+import erp from "../assets/portfolio/erp.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -17,53 +18,58 @@ const Portfolio = () => {
       id: 1,
       src: scriptix,
       link: 'https://scriptix.app/login',
-    },  {
+    },
+    {
       id: 2,
+      src: erp,
+      link: 'https://one.uropenn.se/login',
+    },   {
+      id: 3,
       src: siu,
       link: 'https://siu.rks-gov.net/',
     },
     {
-      id: 3,
+      id: 4,
       src: mvc,
       link: 'https://store.myvirtualcart.com/',
     },
     {
-      id: 4,
+      id: 5,
       src: geotech,
       link: 'https://www.geotech.al/',
     },
     {
-      id: 5,
+      id: 6,
       src: lenura,
       link: 'https://www.lenura.nl/',
     },
     {
-      id: 6,
+      id: 7,
       src: geocad,
       link: 'https://geocad-ks.com/about',
     },
     {
-      id: 7,
+      id: 8,
       src: simonbrandt,
       link: 'https://simonbrandt.ch/',
     },
     {
-      id: 8,
+      id: 9,
       src: dashcodeadmin,
       link: 'https://dashcode.codeshaper.net/app/home',
     },
     {
-      id: 9,
+      id: 10,
       src: startup,
       link: 'https://startup-saas-modern.vercel.app/',
     },
     {
-      id: 10,
+      id: 11,
       src: bmw,
       link: 'https://www.bmw.de/de/home.html',
     },
     {
-      id: 11,
+      id: 12,
       src: landingpg,
       link: 'https://startup-online-course.vercel.app/',
     },
